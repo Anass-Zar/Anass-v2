@@ -3,13 +3,13 @@ import image from '../images/image.png';
 
 const Home = () => {
   return (
-    <div className="bg-gray-100 h-full max-w-full">
-      <div className="py-14 md:py-20 px-6 md:px-16 flex flex-col-reverse md:flex-row flex-wrap md:flex-nowrap gap-x-0 lg:gap-x-12 w-auto lg:w-[63rem] mx-auto">
+    <div className="bg-gray-100 h-[80vh] max-w-full flex items-center">
+      <div className="py-14 md:py-20 px-6 md:px-10 flex flex-col-reverse md:flex-row flex-wrap md:flex-nowrap w-auto lg:w-[63rem] mx-auto">
         <div className="w-full md:w-1/2">
           <h1 className="font-bold text-5xl lg:text-6xl mb-6 md:mb-8 md:text-left text-center transition-all duration-300 ease-in">
             Hi, I&apos;m Anass Zarioh
           </h1>
-          <p className="text-lg lg:text-xl mb-6 md:mb-8 md:text-left text-center transition-all duration-300 ease-in">A web developer based in Agadir, Morocco 📍 . Passionate about creating interactive applications to enhance user experiences.</p>
+          <p className="text-lg lg:text-xl mb-6 md:mb-8 md:text-left text-center transition-all duration-300 ease-in">A Full Stack Developer based in Agadir, Morocco 📍 . Passionate about creating interactive applications to enhance user experiences.</p>
           <div className="flex gap-x-2 md:gap-x-5 md:justify-start justify-center">
             <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anass-zarioh-884114298/" >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="44px" height="44px">
