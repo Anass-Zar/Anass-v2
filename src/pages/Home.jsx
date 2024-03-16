@@ -4,8 +4,8 @@ import image from '../images/image.png';
 const Home = () => {
   return (
     <div className="bg-gray-100 h-[80vh] max-w-full flex items-center mt-16">
-      <div className="py-14 md:py-20 px-6 md:px-10 flex flex-col-reverse md:flex-row flex-wrap md:flex-nowrap w-auto lg:w-[63rem] mx-auto">
-        <div className="w-full md:w-1/2">
+      <div className="py-14 md:py-20 px-6 md:px-10 flex flex-col-reverse md:flex-row flex-wrap md:flex-nowrap w-auto lg:w-[63rem] xl:w-[80%] mx-auto">
+        <div className="w-full md:w-7/12 lg:w-1/2">
           <h1 className="font-bold text-5xl lg:text-6xl mb-6 md:mb-8 md:text-left text-center transition-all duration-300 ease-in">
             Hi, I&apos;m Anass Zarioh
           </h1>
@@ -25,7 +25,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end items-center">
+        <div className="w-full md:w-5/12 lg:w-1/2 flex justify-center md:justify-end items-center">
           <img src={image} alt="image"
             className="rounded-full w-[250px] h-[250px] md:w-[280px] md:h-[280px] lg:w-[350px] lg:h-[350px] mb-6 md:mb-0 transition-all duration-300 ease-in"
           />

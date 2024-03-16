@@ -31,7 +31,7 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             className='text-gray-800 duration-500 cursor-pointer'
           >
-            Anass.dev
+            Anass Zarioh
           </Link>
         </div>
         <div onClick={() => setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
