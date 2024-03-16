@@ -3,7 +3,7 @@ import image from '../images/image.png';
 
 const Home = () => {
   return (
-    <div className="bg-gray-100 h-[80vh] max-w-full flex items-center">
+    <div className="bg-gray-100 h-[80vh] max-w-full flex items-center mt-16">
       <div className="py-14 md:py-20 px-6 md:px-10 flex flex-col-reverse md:flex-row flex-wrap md:flex-nowrap w-auto lg:w-[63rem] mx-auto">
         <div className="w-full md:w-1/2">
           <h1 className="font-bold text-5xl lg:text-6xl mb-6 md:mb-8 md:text-left text-center transition-all duration-300 ease-in">

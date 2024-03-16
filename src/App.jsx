@@ -1,26 +1,35 @@
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import About from './pages/About'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
-import Footer from './components/Footer'
-import Skills from './pages/Skills'
+import {  Element } from 'react-scroll';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Skills from './pages/Skills';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
-    <>
+    <div>
       <Navbar />
-        <div className="pt-16">
-          <Home />
-          <About />
-          <Skills />
-          <Projects />
-          <Contact />
-        </div>
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="about">
+        <About />
+      </Element>
+      <Element name="skills">
+        <Skills />
+      </Element>
+      <Element name="projects">
+        <Projects />
+      </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
       <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
