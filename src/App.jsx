@@ -1,4 +1,4 @@
-import {  Element } from 'react-scroll';
+import { Element } from 'react-scroll';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -8,9 +8,12 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
+  const containerStyle = {
+    fontFamily: 'Poppins, sans-serif',
+  };
 
   return (
-    <div>
+    <div style={containerStyle}>
       <Navbar />
       <Element name="home">
         <Home />
