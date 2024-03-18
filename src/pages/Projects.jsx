@@ -27,12 +27,11 @@ const Projects = () => {
             <img src={GetHouse} alt="Get House" className="rounded-md" />
           </div>
         </div>
-        <div className="py-0 px-0 md:py-10 md:px-8 flex flex-wrap lg:flex-nowrap flex-col-reverse lg:flex-row items-center gap-0 md:gap-6 border-2 border-gray-300 rounded-lg">
+        {/* <div className="py-0 px-0 md:py-10 md:px-8 flex flex-wrap lg:flex-nowrap flex-col-reverse lg:flex-row items-center gap-0 md:gap-6 border-2 border-gray-300 rounded-lg">
           <div className="w-full lg:w-5/12 p-4 md:p-0">
             <h1 className="text-2xl lg:text-4xl font-bold mb-1">ZhGaming</h1>
             <h1 className="text-lg lg:text-2xl font-semibold mb-4">Store</h1>
             <p className="mb-4 text-md">
-              <span className="text-blue-500 font-semibold">ZhGaming</span>
               <span className="text-blue-500 font-semibold">ZhGaming</span> is an online platform dedicated to selling video games, 
               providing gamers with a wide selection of digital and physical game titles. 
               Offering convenience and accessibility, <span className="text-blue-500 font-semibold">ZhGaming</span> aims to enhance the gaming experience for enthusiasts worldwide.
@@ -47,7 +46,7 @@ const Projects = () => {
           <div className="w-full lg:w-7/12 rounded-md">
             <img src={ZhGaming} alt="ZhGaming" className="rounded-md" />
           </div>
-        </div>
+        </div> */}
         <img className="mt-12" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&pause=1000&color=3F3F46&random=false&width=375&lines=New+projects+coming+soon..+%F0%9F%A4%A0" alt="Typing SVG" />
       </div>
     </div>
