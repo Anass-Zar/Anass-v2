@@ -1,5 +1,5 @@
 import GetHouse from "../images/get-house.png"
-import ZhGaming from "../images/zhgaming.png"
+// import ZhGaming from "../images/zhgaming.png"
 
 
 const Projects = () => {
