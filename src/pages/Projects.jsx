@@ -37,7 +37,7 @@ const Projects = () => {
               providing gamers with a wide selection of digital and physical game titles. 
               Offering convenience and accessibility, <span className="text-blue-500 font-semibold">ZhGaming</span> aims to enhance the gaming experience for enthusiasts worldwide.
             </p>
-            <a href="https://get-house.onrender.com/" target="_blank" className="w-36 text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm  px-5 py-2.5 mb-2 flex gap-2 items-center">
+            <a href="https://zhgaming.onrender.com/" target="_blank" className="w-36 text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm  px-5 py-2.5 mb-2 flex gap-2 items-center">
               Live Demo
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m4-3h6v6m-11 5L21 3"/>
